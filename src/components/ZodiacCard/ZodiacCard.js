@@ -1,4 +1,3 @@
-import React from 'react'
 import './ZodiacCard.css'
 
 export default function ZodiacCard({ name, dates }) {
