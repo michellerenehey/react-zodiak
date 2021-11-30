@@ -1,70 +1,55 @@
-# Getting Started with Create React App
+# ZODIAC / ZODIAK APP
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## COMPONENTS:
 
-## Available Scripts
+### Header
 
-In the project directory, you can run:
+- import React
+- import styling
+- Header() which returns header
 
-### `npm start`
+### Footer
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- import React
+- import styling
+- Footer() which returns footer
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### Main
 
-### `npm test`
+- import React
+- import styling
+- import ZodiacCard
+- import data.js list
+- not sure about images yet...
+- Main() which uses .map to map through the items in data.js appropriately (declaring props!)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### ZodiacCard
 
-### `npm run build`
+- import React
+- import styling
+- ZodiacCard() which takes in the props from Main and renders the html (in jsx version!) that we want to appear on the page
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Other Parts of App:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### app.js
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- import React
+- import Header, Footer, Main components
+- import styling? TBD
+- this will have an App() function that returns one div (with a className) and call on the header, footer, and main components
 
-### `npm run eject`
+### data.js
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- this will be a static-coded list of zodiac signs & their dates
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### .eslintrc
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- manually add this, based on demo
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### .prettierrc
 
-## Learn More
+- manually add this, based on demo
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+### photos
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- each zodiac will need it's own photo, decide if these will live in src folder or in public folder
