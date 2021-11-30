@@ -1,12 +1,12 @@
 import React from 'react'
 import './ZodiacCard.css'
 
-export default function ZodiacCard(props) {
+export default function ZodiacCard({ name, dates }) {
   return (
     <div className="zodiacCard">
-      <img src={`${process.env.PUBLIC_URL}/images/${props.name}.png`} />
-      <span className="name">{props.name}</span>
-      <span>{props.dates}</span>
+      <img src={`${process.env.PUBLIC_URL}/images/${name}.png`} />
+      <span className="name">{name}</span>
+      <span>{dates}</span>
     </div>
   )
 }
