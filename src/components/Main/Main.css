@@ -2,5 +2,5 @@ main {
   display: flex;
   flex-wrap: wrap;
   margin-bottom: 40px;
-  align-content: flex-start;
+  justify-content: center;
 }

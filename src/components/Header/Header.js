@@ -2,5 +2,9 @@ import React from 'react'
 import './Header.css'
 
 export default function Header() {
-  return <header>Is This A Sign?</header>
+  return (
+    <header>
+      <div className="headerText">Is This A Sign?</div>
+    </header>
+  )
 }

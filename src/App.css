@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap');
+
 body {
   --color1: #fab3a9;
   --color2: #c6ad94;
@@ -5,9 +7,6 @@ body {
   --color4: #463239;
   --color5: #ed6b86;
   --header-height: 40px;
-  font-family: 'Helvetica', sans-serif;
-}
-
-body {
+  font-family: 'Open Sans Condensed', sans-serif;
   background-color: var(--color2);
 }
