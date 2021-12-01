@@ -8,7 +8,7 @@ body {
   --color5: #ed6b86;
   --header-height: 40px;
   font-family: 'Open Sans Condensed', sans-serif;
-  background-color: var(--color2);
+  background-color: black;
 }
 
 .App {

@@ -12,6 +12,8 @@ header {
   animation-name: spin;
   animation-duration: 5000ms;
   animation-iteration-count: infinite;
+  background-color: var(--color3);
+  padding: 5px;
 }
 
 @keyframes spin {
