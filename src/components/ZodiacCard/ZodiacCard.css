@@ -12,6 +12,10 @@
   text-align: center;
 }
 
+.zodiacCard:hover {
+  background-color: var(--color5);
+}
+
 .name {
   text-transform: uppercase;
 }
